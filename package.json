@@ -1,6 +1,6 @@
 {
   "name": "capacitor-config-reader",
-  "version": "0.0.1",
+  "version": "0.0.4",
   "description": "Read info.plist and strings.xml",
   "main": "dist/plugin.cjs.js",
   "module": "dist/esm/index.js",
@@ -13,7 +13,7 @@
     "ios/Sources",
     "ios/Tests",
     "Package.swift",
-    "ConfigReader.podspec"
+    "CapacitorConfigReader.podspec"
   ],
   "author": "Latch",
   "license": "MIT",
