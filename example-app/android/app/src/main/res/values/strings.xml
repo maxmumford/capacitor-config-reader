@@ -4,4 +4,10 @@
     <string name="title_activity_main">example-app</string>
     <string name="package_name">com.example.plugin</string>
     <string name="custom_url_scheme">com.example.plugin</string>
+    
+    <!-- Test strings for ConfigReader plugin -->
+    <string name="test_string">Hello from strings.xml!</string>
+    <string name="api_base_url">https://api.example.com</string>
+    <string name="app_version">1.0.0</string>
+    <string name="feature_flag_debug">true</string>
 </resources>

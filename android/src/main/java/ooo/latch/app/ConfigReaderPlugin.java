@@ -19,4 +19,20 @@ public class ConfigReaderPlugin extends Plugin {
         ret.put("value", implementation.echo(value));
         call.resolve(ret);
     }
+
+    @PluginMethod
+    public void readStringResource(PluginCall call) {
+        String key = call.getString("key");
+        
+        if (key == null || key.isEmpty()) {
+            call.reject("Key parameter is required");
+            return;
+        }
+
+        String value = implementation.readStringResource(getContext(), key);
+        
+        JSObject ret = new JSObject();
+        ret.put("value", value);
+        call.resolve(ret);
+    }
 }
