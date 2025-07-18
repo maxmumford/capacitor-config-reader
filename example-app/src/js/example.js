@@ -1,4 +1,4 @@
-import { ConfigReader } from 'config-reader';
+import { ConfigReader } from 'capacitor-config-reader';
 
 window.testReadStringResource = async () => {
     const keyValue = document.getElementById("stringKeyInput").value;

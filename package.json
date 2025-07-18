@@ -1,5 +1,5 @@
 {
-  "name": "config-reader",
+  "name": "capacitor-config-reader",
   "version": "0.0.1",
   "description": "Read info.plist and strings.xml",
   "main": "dist/plugin.cjs.js",

@@ -14,7 +14,7 @@
   },
   "dependencies": {
     "@capacitor/core": "latest",
-    "config-reader": "file:..",
+    "capacitor-config-reader": "file:..",
     "@capacitor/ios": "7.0.0",
     "@capacitor/android": "7.0.0"
   },
