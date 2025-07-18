@@ -1,10 +1,5 @@
 import { ConfigReader } from 'config-reader';
 
-window.testEcho = () => {
-    const inputValue = document.getElementById("echoInput").value;
-    ConfigReader.echo({ value: inputValue })
-}
-
 window.testReadStringResource = async () => {
     const keyValue = document.getElementById("stringKeyInput").value;
     const resultDiv = document.getElementById("stringResourceResult");
