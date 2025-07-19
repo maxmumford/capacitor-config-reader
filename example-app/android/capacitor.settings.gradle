@@ -2,5 +2,5 @@
 include ':capacitor-android'
 project(':capacitor-android').projectDir = new File('../node_modules/@capacitor/android/capacitor')
 
-include ':config-reader'
-project(':config-reader').projectDir = new File('../../android')
+include ':capacitor-config-reader'
+project(':capacitor-config-reader').projectDir = new File('../node_modules/capacitor-config-reader/android')

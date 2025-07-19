@@ -1,4 +1,4 @@
-package ooo.latch.app;
+package technology.mumford.capacitor-config-reader;
 
 import android.content.Context;
 import android.content.res.Resources;

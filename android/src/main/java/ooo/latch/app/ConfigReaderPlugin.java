@@ -1,4 +1,4 @@
-package ooo.latch.app;
+package technology.mumford.capacitor-config-reader;
 
 import com.getcapacitor.JSObject;
 import com.getcapacitor.Plugin;
