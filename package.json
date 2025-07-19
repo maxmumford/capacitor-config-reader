@@ -1,6 +1,6 @@
 {
   "name": "capacitor-config-reader",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Read info.plist and strings.xml",
   "main": "dist/plugin.cjs.js",
   "module": "dist/esm/index.js",
