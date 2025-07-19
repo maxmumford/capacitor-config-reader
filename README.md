@@ -1,6 +1,6 @@
 # capacitor-config-reader
 
-Read info.plist and strings.xml
+Simple plugin to read values from info.plist on iOS and strings.xml on Android.
 
 ## Install
 
