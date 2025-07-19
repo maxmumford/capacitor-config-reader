@@ -1,11 +1,11 @@
-# config-reader
+# capacitor-config-reader
 
 Read info.plist and strings.xml
 
 ## Install
 
 ```bash
-npm install config-reader
+npm install capacitor-config-reader
 npx cap sync
 ```
 
@@ -14,7 +14,7 @@ npx cap sync
 ### Reading from Android strings.xml
 
 ```typescript
-import { ConfigReader } from 'config-reader';
+import { ConfigReader } from 'capacitor-config-reader';
 
 // Read a string resource from strings.xml
 const result = await ConfigReader.readStringResource({ key: 'app_name' });
@@ -24,7 +24,7 @@ console.log(result.value); // Outputs the value from strings.xml
 ### Reading from iOS Info.plist
 
 ```typescript
-import { ConfigReader } from 'config-reader';
+import { ConfigReader } from 'capacitor-config-reader';
 
 // Read a value from Info.plist
 const result = await ConfigReader.readInfoPlistValue({ key: 'CFBundleDisplayName' });
@@ -86,9 +86,9 @@ The plugin can read any key defined in your `ios/App/App/Info.plist` file. Commo
 
 <docgen-index>
 
-* [`echo(...)`](#echo)
-* [`readStringResource(...)`](#readstringresource)
-* [`readInfoPlistValue(...)`](#readinfoplistvalue)
+- [`echo(...)`](#echo)
+- [`readStringResource(...)`](#readstringresource)
+- [`readInfoPlistValue(...)`](#readinfoplistvalue)
 
 </docgen-index>
 
@@ -107,8 +107,7 @@ echo(options: { value: string; }) => Promise<{ value: string; }>
 
 **Returns:** <code>Promise&lt;{ value: string; }&gt;</code>
 
---------------------
-
+---
 
 ### readStringResource(...)
 
@@ -122,8 +121,7 @@ readStringResource(options: { key: string; }) => Promise<{ value: string; }>
 
 **Returns:** <code>Promise&lt;{ value: string; }&gt;</code>
 
---------------------
-
+---
 
 ### readInfoPlistValue(...)
 
@@ -137,6 +135,6 @@ readInfoPlistValue(options: { key: string; }) => Promise<{ value: string; }>
 
 **Returns:** <code>Promise&lt;{ value: string; }&gt;</code>
 
---------------------
+---
 
 </docgen-api>
