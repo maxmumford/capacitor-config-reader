@@ -15,14 +15,14 @@
     "Package.swift",
     "CapacitorConfigReader.podspec"
   ],
-  "author": "Latch",
+  "author": "Max Mumford",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Latch-PropTech/capacitor-config-reader.git"
+    "url": "git+https://github.com/maxmumford/capacitor-config-reader.git"
   },
   "bugs": {
-    "url": "https://github.com/Latch-PropTech/capacitor-config-reader/issues"
+    "url": "https://github.com/maxmumford/capacitor-config-reader/issues"
   },
   "keywords": [
     "capacitor",
