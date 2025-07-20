@@ -86,9 +86,9 @@ The plugin can read any key defined in your `ios/App/App/Info.plist` file. Commo
 
 <docgen-index>
 
-- [`echo(...)`](#echo)
-- [`readStringResource(...)`](#readstringresource)
-- [`readInfoPlistValue(...)`](#readinfoplistvalue)
+* [`echo(...)`](#echo)
+* [`readStringResource(...)`](#readstringresource)
+* [`readInfoPlistValue(...)`](#readinfoplistvalue)
 
 </docgen-index>
 
@@ -107,7 +107,8 @@ echo(options: { value: string; }) => Promise<{ value: string; }>
 
 **Returns:** <code>Promise&lt;{ value: string; }&gt;</code>
 
----
+--------------------
+
 
 ### readStringResource(...)
 
@@ -121,7 +122,8 @@ readStringResource(options: { key: string; }) => Promise<{ value: string; }>
 
 **Returns:** <code>Promise&lt;{ value: string; }&gt;</code>
 
----
+--------------------
+
 
 ### readInfoPlistValue(...)
 
@@ -135,6 +137,6 @@ readInfoPlistValue(options: { key: string; }) => Promise<{ value: string; }>
 
 **Returns:** <code>Promise&lt;{ value: string; }&gt;</code>
 
----
+--------------------
 
 </docgen-api>
