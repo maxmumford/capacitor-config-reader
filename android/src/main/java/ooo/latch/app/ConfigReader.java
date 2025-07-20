@@ -1,4 +1,4 @@
-package technology.mumford.capacitor-config-reader;
+package technology.mumford.capacitorconfigreader;
 
 import android.content.Context;
 import android.content.res.Resources;

@@ -1,4 +1,4 @@
-package technology.mumford.capacitor-config-reader;
+package technology.mumford.capacitorconfigreader;
 
 import com.getcapacitor.JSObject;
 import com.getcapacitor.Plugin;
